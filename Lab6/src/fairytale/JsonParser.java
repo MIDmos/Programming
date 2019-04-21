@@ -3,17 +3,18 @@ package fairytale;
 import java.util.LinkedHashSet;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
+import java.util.Set;
 
 
 public class JsonParser {
     
-    private LinkedHashSet<Noise>set;
+    private Set<Noise> set;
     private Scanner scanner;
     private String name,sound,expectedToken;
     private boolean nameIsDone;
     private JsonParser.Tokenizer tokenizer;
     
-    public JsonParser(Scanner scanner,LinkedHashSet<Noise> noises){
+    public JsonParser(Scanner scanner,Set<Noise> noises){
         this.scanner=scanner;
         set=noises;
         name="";

@@ -27,20 +27,14 @@ import java.util.stream.Collectors;
  * <p>Также обладает встроенными командами класса {@link CommandsManager}
  */
 public class Story {//Класс, реализующий историю
-    private LinkedHashSet<Noise> noises;
-    private Karlson karlson;
-    private Kid kid;
+    private Set<Noise> noises;
     private CommandsManager commandsManager;
     private long initTime;
 
     public Story() {
-        //Создание главных персонажей
-        karlson = new Karlson("Карлсон", 2, 100);
-        kid = new Kid("Малыш", 3, 50);
-        kid.setConcentration(0);
-
-        noises = new LinkedHashSet<>();//Создание шумов
         initTime = System.currentTimeMillis();
+
+        noises =Collections.synchronizedSet(new LinkedHashSet<>());//Создание шумов
 
         commandsManager = new CommandsManager();
         commandsManager.addCommand(//Добавление необходимых команд
@@ -48,12 +42,12 @@ public class Story {//Класс, реализующий историю
                     @Override
                     public void execute() {
                         if(noises.addAll(createNoise(getArguments())))
-                            System.out.println("Успешное добавление");
-                        else System.out.println("При добавлении возникли проблемы");
+                            commandsManager.println("Успешное добавление");
+                        else commandsManager.println("При добавлении возникли проблемы");
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Добавляет в коллекцию элемент типа Noise");
+                        commandsManager.println("Добавляет в коллекцию элемент типа Noise");
                     }
                 },
                 new Command("remove_greater", -1) {
@@ -65,28 +59,28 @@ public class Story {//Класс, реализующий историю
                                     args.stream()
                                     .max(Noise::compareTo)
                                     .get()) > 0){
-                                System.out.println(noise+" удален");
+                                commandsManager.println(noise+" удален");
                                 return true;
                             }
-                            System.out.println(noise + " оставлен в коллекции");
+                            commandsManager.println(noise + " оставлен в коллекции");
                             return false;
                         });
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Удаляет все элементы коллекции, превышающие заданный.");
+                        commandsManager.println("Удаляет все элементы коллекции, превышающие заданный.");
                     }
                 },
                 new Command("show", 0) {
                     @Override
                     public void execute() {
-                        for (Noise noise : noises) System.out.println(noise);
+                        noises.forEach(commandsManager::println);
                         if(noises.size()==0)
-                            System.out.println("Коллекция пуста");
+                            commandsManager.println("Коллекция пуста");
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Выводит список всех элементов коллекции.");
+                        commandsManager.println("Выводит список всех элементов коллекции.");
                     }
                 },
                 new Command("save", 0) {
@@ -96,7 +90,7 @@ public class Story {//Класс, реализующий историю
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Сохраняет коллекцию в файл save.json.");
+                        commandsManager.println("Сохраняет коллекцию в файл save.json.");
                     }
                 },
                 new Command("clear", 0) {
@@ -106,21 +100,21 @@ public class Story {//Класс, реализующий историю
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Удаляет все элементы коллекции.");
+                        commandsManager.println("Удаляет все элементы коллекции.");
                     }
                 },
                 new Command("info", 0) {
                     @Override
                     public void execute() {
-                        System.out.println("\nКоллекция шумов");
-                        System.out.println("Тип коллекции: " + noises.getClass().getName());
-                        System.out.println("Тип элементов: " + Noise.class.getName());
-                        System.out.println("Всего элементов: " + noises.size());
-                        System.out.println("Дата инициализации: " + new Date(initTime) + '\n');
+                        commandsManager.println("\nКоллекция шумов");
+                        commandsManager.println("Тип коллекции: " + noises.getClass().getName());
+                        commandsManager.println("Тип элементов: " + Noise.class.getName());
+                        commandsManager.println("Всего элементов: " + noises.size());
+                        commandsManager.println("Дата инициализации: " + new Date(initTime) + '\n');
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Выводит информацию о коллекции.");
+                        commandsManager.println("Выводит информацию о коллекции.");
                     }
                 },
                 new Command("remove_lower", -1) {
@@ -133,29 +127,29 @@ public class Story {//Класс, реализующий историю
                                         args.stream()
                                         .max(Noise::compareTo)
                                         .get()) < 0){
-                                    System.out.println(setNoise + "удален");
+                                    commandsManager.println(setNoise + "удален");
                                     return true;
                                 }
-                                System.out.println(setNoise + "оставлен в коллекции");
+                                commandsManager.println(setNoise + "оставлен в коллекции");
                                 return false;
                             }));
                         }
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Удаляет все элементы коллекции, меньшие заданного.");
+                        commandsManager.println("Удаляет все элементы коллекции, меньшие заданного.");
                     }
                 },
                 new Command("remove", -1) {
                     @Override
                     public void execute() {
                         if(noises.removeAll(createNoise(getArguments())))
-                            System.out.println("Операция прошла успешно");
-                        else System.out.println("Ошибка при удалении");
+                            commandsManager.println("Операция прошла успешно");
+                        else commandsManager.println("Ошибка при удалении");
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Удаляет заданный элементы коллекции.");
+                        commandsManager.println("Удаляет заданный элементы коллекции.");
                     }
                 },
                 new Command("add_if_max", -1) {
@@ -167,10 +161,10 @@ public class Story {//Класс, реализующий историю
                             createNoise(getArguments()).stream()
                                     .filter(noise -> {
                                         if(noise.compareTo(max) > 0){
-                                            System.out.println(noise+" добавлен");
+                                            commandsManager.println(noise+" добавлен");
                                             return true;
                                         }
-                                        System.out.println(noise + "не добавлен");
+                                        commandsManager.println(noise + "не добавлен");
                                         return false;
                                     })
                                     .collect(Collectors.toSet()));
@@ -178,30 +172,7 @@ public class Story {//Класс, реализующий историю
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Добавляет элемент в коллекцию, если он больше максимального.");
-                    }
-                },
-                new Command("play", 0) {
-                    @Override
-                    public void execute() {
-                        kid.listen(karlson.createSound(), noises);
-                        karlson.playSound();
-                        System.out.println();
-
-
-                        System.out.println("Малыш слушал рассеянно.");
-                        for (Noise noise : noises)
-                            if (noise.wasActive()) {
-                                System.out.println("Подействовал шум " + noise);
-                                noise.setWasActive(false);
-                            }
-                        System.out.println();
-
-                        kid.playSound();
-                    }
-                    @Override
-                    public void describe() {
-                        System.out.println("Позволяет сыграть историю.");
+                        commandsManager.println("Добавляет элемент в коллекцию, если он больше максимального.");
                     }
                 }
         );
@@ -215,16 +186,12 @@ public class Story {//Класс, реализующий историю
         this.commandsManager = commandsManager;
     }
 
-    private Noise findMax(LinkedHashSet<Noise> set){
-        return new TreeSet<>(set).last();
-    }
-
-    public void setNoises(LinkedHashSet<Noise> noises) {
-        this.noises = noises;
+    public void setNoises(Set<Noise> noises) {
+        this.noises = Collections.synchronizedSet(noises);
         initTime = System.currentTimeMillis();
     }
 
-    public LinkedHashSet<Noise> getNoises() {
+    public Set<Noise> getNoises() {
         return noises;
     }
 

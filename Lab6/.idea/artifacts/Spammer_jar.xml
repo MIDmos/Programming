@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Spammer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spammer</output-path>
+    <root id="archive" name="Spammer.jar">
+      <element id="module-output" name="Spammer" />
+      <element id="module-output" name="Client" />
+      <element id="module-output" name="Karlson6" />
+      <element id="module-output" name="Server" />
+    </root>
+  </artifact>
+</component>

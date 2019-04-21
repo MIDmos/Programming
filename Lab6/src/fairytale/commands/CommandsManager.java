@@ -1,5 +1,6 @@
 package fairytale.commands;
 
+import java.io.PrintStream;
 import java.util.LinkedList;
 /**
  * Обрабатывает команды, Обладает двумя встроенными:
@@ -10,46 +11,48 @@ public class CommandsManager {//Обработчик команд
     private LinkedList<Command>commands;
     private CommandsRecognizer recognizer;
     private boolean active;
+    private PrintStream printStream;
 
     public CommandsManager(){
+        printStream=System.out;
         commands=new LinkedList<>();
         addCommand(
                 new Command("help",0) {
                     @Override
                     public void execute() {
-                        System.out.println("Все команды:");
+                        println("Все команды:");
                         for (Command command:commands) {
-                            System.out.print(command);
-                            System.out.print("   ");
+                            print(command);
+                            print("           ");
                             command.describe();
-                            System.out.println();
+                            println();
                         }
                     }
 
                     @Override
                     public void describe() {
-                        System.out.println("Выводит список всех команд с описанием.");
+                        println("Выводит список всех команд с описанием.");
                     }
                 },
                 new Command("NULL",-2) {
                     @Override
                     public void execute() {
-                        System.out.println("Ничего не произошло");
+                        println("Ничего не произошло");
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Ничего не делает.");
+                        println("Ничего не делает.");
                     }
                 },
                 new Command("exit",0) {
                     @Override
                     public void execute() {
-                        System.out.println("До свидания.");
+                        println("До свидания.");
                         active=false;
                     }
                     @Override
                     public void describe() {
-                        System.out.println("Завершает работу");
+                        println("Завершает работу");
                     }
                 });
         recognizer=new CommandsRecognizer(commands);
@@ -61,12 +64,34 @@ public class CommandsManager {//Обработчик команд
             commands.add(command);
     }
 
+    public void print(Object o){
+        printStream.print(o);
+    }
+
+    public void println(Object o){
+        printStream.println(o);
+    }
+
+    public void println(){
+        printStream.println();
+    }
+
+
     public void doCommand(String command){
         recognizer.recognizeCommand(command);
     }
 
     public void doCommand(CommandDescriptor descriptor){
         recognizer.recognizeCommand(descriptor);
+    }
+
+    public PrintStream getPrintStream() {
+        return printStream;
+    }
+
+    public void setPrintStream(PrintStream printStream) {
+        this.printStream = printStream;
+        recognizer.setPrintStream(printStream);
     }
 
     public boolean isActive() {

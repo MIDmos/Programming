@@ -1,117 +1,76 @@
 package server;
 
 import fairytale.FileHandler;
+import fairytale.Noise;
 import fairytale.Story;
-import fairytale.commands.Command;
-import fairytale.commands.CommandsManager;
 
 import java.io.*;
 import java.net.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.DatagramChannel;
+import java.util.Scanner;
+import java.util.Set;
 
 public class Server {
 
+    private Set<Noise> noises;
     private DatagramChannel channel;
-    private final Story story;
-    private final CommandsManager manager;
 
 
     public Server(int port) throws IOException {
-        channel = DatagramChannel.open().bind(new InetSocketAddress("localhost", port));
+        //Открываем новый канал
+        channel = DatagramChannel.open().
+                //Связываем сокет канала с адресом
+                bind(new InetSocketAddress(InetAddress.getLocalHost(), port));
+
+        //Загружаем коллекцию шумов
+        Story story = new Story();
+        if (story.getNoises().addAll(FileHandler.readFile("save.json")))
+            System.out.println("Коллекция изменена");
+        else System.out.println("Коллекция не изменилась");
+
+        noises=story.getNoises();
+
+        //Выводим информацию о сервере
         System.out.println("Сервер запущен");
-        System.out.println("IP: " + InetAddress.getLocalHost());
-        System.out.println("Порт: " + port);
+        System.out.println("IP: " + channel.getLocalAddress());
 
-        story = new Story();
 
-        manager = story.getCommandsManager();
-        manager.addCommand(
-                new Command("connect", 0) {
-                    @Override
-                    public void execute() {
-                        System.out.println("подключено");
-                    }
-
-                    @Override
-                    public void describe() {
-                        System.out.println("Команда для проверки соединения");
-                    }
-                },
-                new Command("load", 1) {
-                    @Override
-                    public void execute() {
-                        if (story.getNoises().addAll(FileHandler.readFile(getArguments())))
-                            System.out.println("Коллекция изменена");
-                        else System.out.println("Коллекция не изменилась");
-                    }
-
-                    @Override
-                    public void describe() {
-                        System.out.println("Дополняет коллекцию элементами из файла с сервера.");
-                    }
-                },
-                new Command("wait", 0) {
-                    @Override
-                    public void execute() {
-                        long start= System.currentTimeMillis();
-                        try {
-                            Thread.sleep(100);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-                        System.out.println("All time slept: "+(System.currentTimeMillis()-start));
-                    }
-                    @Override
-                    public void describe() {
-                        System.out.println("Создает задержку.");
-                    }
-                },
-                new Command("import", -1) {
-                    @Override
-                    public void execute() {
-                        if (story.getNoises().addAll(story.createNoise(getArguments())))
-                            System.out.println("Коллекция изменена");
-                        else System.out.println("Коллекция не изменилась");
-                    }
-
-                    @Override
-                    public void describe() {
-                        System.out.println("Дополняет коллекцию элементами из файла клиента.");
-                    }
-                },
-                new Command("update",0) {
-                    @Override
-                    public void execute() {
-                        System.out.println("Колекция обновлена");
-                    }
-                    @Override
-                    public void describe() {
-                        System.out.println("Отправляет клиенту коллекцию");
-                    }
-                });
     }
 
     private void listen() throws IOException {
         while (true) {
+            //Создаем буфер для хранения датаграмы
             ByteBuffer buffer = ByteBuffer.allocate(4096);
-            buffer.clear();
+
+            //Копируем полученную датаграмму в буфер
+            //И сохраняем адрес отправителя
             InetSocketAddress clientAddress = (InetSocketAddress) channel.receive(buffer);
 
-            ResponseThread responseThread = new ResponseThread(channel, clientAddress, buffer, story);
+            //Создаем поток для обработки запроса
+            ResponseThread responseThread = new ResponseThread(channel, clientAddress, buffer, noises);
+            //Запускаем его
             responseThread.start();
         }
     }
 
     public static void main(String[] args) {
+
+        //При запуске сервера нужно задать порт
+        int port = 0;
+
         if(args.length>0) {
-            try {
-                Server server = new Server(Integer.valueOf(args[0]));
-                server.story.getCommandsManager().doCommand("load save.json");
-                server.listen();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }else System.out.println("Неправильный запуск. Нужно указать Порт");
+            port = Integer.valueOf(args[0]); //Либо в аргументах
+        }else {
+            Scanner scanner = new Scanner(System.in); //Либо через поток ввода
+            System.out.print("Введите порт: ");
+            port=scanner.nextInt();
+        }
+        try {
+            Server server = new Server(port);  //Создаем сервер
+            server.listen();        //Запускаем прослушку запросов
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

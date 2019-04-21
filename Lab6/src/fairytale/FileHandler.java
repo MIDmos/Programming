@@ -3,6 +3,7 @@ package fairytale;
 import java.io.*;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class FileHandler {
 
@@ -18,7 +19,7 @@ public class FileHandler {
         return set;
     }
 
-    public static void writeFile(LinkedHashSet<Noise> noises) {
+    public static void writeFile(Set<Noise> noises) {
 
         try (FileOutputStream outputStream = new FileOutputStream(new File("save.json"));){
             outputStream.write(("{" + '\n').getBytes());
