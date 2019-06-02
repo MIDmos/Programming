@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_karlson5" default="compile.module.karlson5">
+  <dirname property="module.karlson5.basedir" file="${ant.file.module_karlson5}"/>
+  
+  <property name="module.jdk.home.karlson5" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.karlson5" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.karlson5" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.karlson5" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="karlson5.output.dir" value="${module.karlson5.basedir}/out/production/Karlson5"/>
+  <property name="karlson5.testoutput.dir" value="${module.karlson5.basedir}/out/test/Karlson5"/>
+  
+  <path id="karlson5.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="karlson5.module.production.classpath">
+    <path refid="${module.jdk.classpath.karlson5}"/>
+  </path>
+  
+  <path id="karlson5.runtime.production.module.classpath">
+    <pathelement location="${karlson5.output.dir}"/>
+  </path>
+  
+  <path id="karlson5.module.classpath">
+    <path refid="${module.jdk.classpath.karlson5}"/>
+    <pathelement location="${karlson5.output.dir}"/>
+  </path>
+  
+  <path id="karlson5.runtime.module.classpath">
+    <pathelement location="${karlson5.testoutput.dir}"/>
+    <pathelement location="${karlson5.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.karlson5">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.karlson5">
+    <patternset refid="excluded.from.module.karlson5"/>
+  </patternset>
+  
+  <path id="karlson5.module.sourcepath">
+    <dirset dir="${module.karlson5.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.karlson5" depends="compile.module.karlson5.production,compile.module.karlson5.tests" description="Compile module Karlson5"/>
+  
+  <target name="compile.module.karlson5.production" depends="register.custom.compilers" description="Compile module Karlson5; production classes">
+    <mkdir dir="${karlson5.output.dir}"/>
+    <javac2 destdir="${karlson5.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.karlson5}/javac">
+      <compilerarg line="${compiler.args.karlson5}"/>
+      <bootclasspath refid="karlson5.module.bootclasspath"/>
+      <classpath refid="karlson5.module.production.classpath"/>
+      <src refid="karlson5.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.karlson5"/>
+    </javac2>
+    
+    <copy todir="${karlson5.output.dir}">
+      <fileset dir="${module.karlson5.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.karlson5.tests" depends="register.custom.compilers,compile.module.karlson5.production" description="compile module Karlson5; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.karlson5" description="cleanup module">
+    <delete dir="${karlson5.output.dir}"/>
+    <delete dir="${karlson5.testoutput.dir}"/>
+  </target>
+</project>

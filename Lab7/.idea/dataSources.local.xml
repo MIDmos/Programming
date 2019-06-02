@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="studs@pg" uuid="29b6cad9-eda5-4f67-b9c2-eb1063b2f457">
+      <database-info product="PostgreSQL" version="9.6.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="9.6.1" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>session</secret-storage>
+      <user-name>s265093</user-name>
+      <introspection-schemas>@:@</introspection-schemas>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>helios.se.ifmo.ru</proxy-host>
+        <proxy-port>2222</proxy-port>
+        <local-port>5432</local-port>
+        <secret-storage>session</secret-storage>
+        <user>s265093</user>
+        <use-password>true</use-password>
+        <auth-type>PASSWORD</auth-type>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>

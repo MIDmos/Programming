@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Client:jar" />
+      <artifact name="Server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1882204-7b8a-4148-970e-5548e675ef45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/artifacts/Client_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/artifacts/Client_jar2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/artifacts/Server_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/libraries/src.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Client/Client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Client/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Client/src/client/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Client/src/client/SpammerClients.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/ClientSpammer/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Karlson5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Server/Server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Server/one-liners.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Server/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Server/src/server/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Server/src/server/ResponseThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/Server/src/server/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/karlson5.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/karlson5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/module_karlson5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/artifacts/Client/Client.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/artifacts/ClientSpammer/Client.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/artifacts/Server/Server.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Client/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Client/client/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Client/client/SpamThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Client/client/SpammerClients.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/ChangingRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Describable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/FileHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/JsonParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/JsonParser$Tokenizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/JsonParser$WrongTokenException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/JsonParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Karlson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/KarlsonHouseNotTheBestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Kid$HouseComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Kid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Noise$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Noise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/PersonWithHouse$House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/PersonWithHouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/PersonWithSound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/SoundChanger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/SoundCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/SoundListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/VeryLongSoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsManager$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsManager$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsRecognizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Задание.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/ResponseThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/save.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/ChangingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Describable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/FileHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/JsonParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Karlson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/KarlsonHouseNotTheBestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Kid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Noise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/PersonWithHouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/PersonWithSound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/SoundChanger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/SoundCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/SoundListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Story.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/VeryLongSoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/commands/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/commands/CommandDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/commands/CommandsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/commands/CommandsRecognizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Задание.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/task.png" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="studs: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="studs: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="studs: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s265093: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="studs: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s265093: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="studs: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s265093: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="noises: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studs@pg" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="studs: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s265093: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="users: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Server/src/server/EmailHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/client/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#testServerConnection#0;class#Client#0" />
+                <element signature="docComment;method#work#0;class#Client#0" />
+                <element signature="docComment;method#doCommand#0;class#Client#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/src/server/ResponseThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3597#3598#0" expanded="true" />
+                <element signature="e#3700#3701#0" expanded="true" />
+                <element signature="e#5576#5577#0" expanded="true" />
+                <element signature="e#5679#5680#0" expanded="true" />
+                <element signature="e#7582#7583#0" expanded="true" />
+                <element signature="e#7681#7682#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/src/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/src/server/ServerCommandManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4095#4096#0" expanded="true" />
+                <element signature="e#4207#4208#0" expanded="true" />
+                <element signature="e#4618#4619#0" expanded="true" />
+                <element signature="e#4717#4718#0" expanded="true" />
+                <element signature="e#5141#5142#0" expanded="true" />
+                <element signature="e#5237#5238#0" expanded="true" />
+                <element signature="e#6096#6097#0" expanded="true" />
+                <element signature="e#6186#6187#0" expanded="true" />
+                <element signature="e#6792#6793#0" expanded="true" />
+                <element signature="e#6882#6883#0" expanded="true" />
+                <element signature="e#8379#8380#0" expanded="true" />
+                <element signature="e#8488#8489#0" expanded="true" />
+                <element signature="e#9870#9871#0" expanded="true" />
+                <element signature="e#9965#9966#0" expanded="true" />
+                <element signature="e#10703#10704#0" expanded="true" />
+                <element signature="e#10812#10813#0" expanded="true" />
+                <element signature="e#12204#12205#0" expanded="true" />
+                <element signature="e#12323#12324#0" expanded="true" />
+                <element signature="method#loginConfirmed#0;class#ServerCommandManager#0" />
+                <element signature="e#13584#13585#0" expanded="true" />
+                <element signature="e#13613#13614#0" expanded="true" />
+                <element signature="e#13660#13661#0" expanded="true" />
+                <element signature="e#13696#13697#0" expanded="true" />
+                <element signature="e#13727#13728#0" expanded="true" />
+                <element signature="e#13755#13756#0" expanded="true" />
+                <element signature="e#13796#13797#0" expanded="true" />
+                <element signature="e#13830#13831#0" expanded="true" />
+                <element signature="e#13856#13857#0" expanded="true" />
+                <element signature="e#13881#13882#0" expanded="true" />
+                <element signature="e#13914#13915#0" expanded="true" />
+                <element signature="e#13942#13943#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/src/server/QueryStorage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/src/server/RandomPassword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/src/server/Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>filt</find>
+      <find>connect</find>
+      <find>toCollect</find>
+      <find>.collect</find>
+      <find>collect</find>
+      <find>from</find>
+      <find>add&quot;</find>
+      <find>regis</find>
+      <find>System.out</find>
+      <find>login</find>
+      <find>re</find>
+      <find>conn</find>
+      <find>LOGINED</find>
+      <find>addNo</find>
+      <find>remo</find>
+      <find>==id</find>
+      <find>System.err</find>
+      <find>ID =</find>
+      <find>id =</find>
+      <find>import</find>
+      <find>load</find>
+      <find>getId</find>
+      <find>add</find>
+      <find>impo</find>
+      <find>removeNo</find>
+      <find>toS</find>
+      <find>seq</find>
+      <find>clear</find>
+      <find>id</find>
+      <find>login (</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar!\javax\management</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/fairytale/SoundChanger.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/Kid.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/SoundListener.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/SoundCreator.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/Karlson.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/Main.java" />
+        <option value="$PROJECT_DIR$/CLient/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/client/Main.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/Sender.java" />
+        <option value="$PROJECT_DIR$/Server/src/one-liners.txt" />
+        <option value="$PROJECT_DIR$/Server/src/Server.java" />
+        <option value="$PROJECT_DIR$/Server/src/ServerThread.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/MyServer.java" />
+        <option value="$PROJECT_DIR$/Server/one-liners.txt" />
+        <option value="$PROJECT_DIR$/Client/src/Invoker.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/commands/Command.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/ServerThread.java" />
+        <option value="$PROJECT_DIR$/Client/src/wqe.java" />
+        <option value="$PROJECT_DIR$/Client/src/qwerty" />
+        <option value="$PROJECT_DIR$/src/fairytale/commands/CommandDescriptor.java" />
+        <option value="$PROJECT_DIR$/Client/src/Sender.java" />
+        <option value="$PROJECT_DIR$/Client/src/Client.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/ClientThread.java" />
+        <option value="$PROJECT_DIR$/Client/src/client/SpamerClients.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/ServerCommandsManager.java" />
+        <option value="$PROJECT_DIR$/Client/src/client/SpammerClients.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/commands/CommandsRecognizer.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/commands/CommandsManager.java" />
+        <option value="$PROJECT_DIR$/Spammer/src/clientSpammer/Spammer.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/JsonParser.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/81ed63ff-7519-479a-8dcb-8a8c07da3eec/console.sql" />
+        <option value="$PROJECT_DIR$/Client/src/client/User.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/MailHandler.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/RandomPassword.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/DBHandler.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/Server/src/server/UnconfirmedLoginException.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/ServerComandManager.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/Story.java" />
+        <option value="29b6cad9-eda5-4f67-b9c2-eb1063b2f457/database/studs/schema/s265093/table/noises.sql" />
+        <option value="$PROJECT_DIR$/src/fairytale/FileHandler.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/Response.java" />
+        <option value="$PROJECT_DIR$/Client/src/client/Request.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/ServerCommandManager.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/QueryStorage.java" />
+        <option value="$PROJECT_DIR$/src/fairytale/Noise.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/ResponseThread.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/29b6cad9-eda5-4f67-b9c2-eb1063b2f457/console.sql" />
+        <option value="$PROJECT_DIR$/Client/src/client/Client.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/EmailHandler.java" />
+        <option value="$PROJECT_DIR$/Server/src/server/Server.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab7" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Client" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Lab7" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Client" type="616d4139:PackageViewModuleNode" />
+              <item name="client" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Lab7" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Server" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Lab7" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Server" type="616d4139:PackageViewModuleNode" />
+              <item name="server" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="karlson5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555866392104" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/libs/jsch-0.1.55.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="sshConsole" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fairytale.commands" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\IdeaProjects\Karlson5\src\fairytale" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivan\IdeaProjects\Me\Karlson7" />
+      <recent name="C:\Users\Ivan\IdeaProjects\Karlson6\Client\src\client" />
+      <recent name="C:\Users\Ivan\IdeaProjects\Karlson6\Server" />
+      <recent name="C:\Users\Ivan\IdeaProjects\Karlson5\src\fairytale" />
+      <recent name="C:\Users\Ivan\IdeaProjects\Karlson5\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.Client" />
+      <module name="Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="client.Client" />
+      <module name="Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="client.Client" />
+      <module name="Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="Server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1882204-7b8a-4148-970e-5548e675ef45" name="Default Changelist" comment="" />
+      <created>1550681930671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550681930671</updated>
+      <workItem from="1550681934981" duration="11466000" />
+      <workItem from="1550778784785" duration="6801000" />
+      <workItem from="1550914407721" duration="2675000" />
+      <workItem from="1550921984808" duration="1693000" />
+      <workItem from="1550924095812" duration="4359000" />
+      <workItem from="1550928732231" duration="670000" />
+      <workItem from="1550994158898" duration="42473000" />
+      <workItem from="1551046427825" duration="2603000" />
+      <workItem from="1551085617619" duration="8534000" />
+      <workItem from="1552131105698" duration="3259000" />
+      <workItem from="1552294860798" duration="448000" />
+      <workItem from="1553331168289" duration="3559000" />
+      <workItem from="1553334939132" duration="4565000" />
+      <workItem from="1553444012445" duration="12679000" />
+      <workItem from="1553500334599" duration="2220000" />
+      <workItem from="1553535557783" duration="1238000" />
+      <workItem from="1554138191475" duration="26000" />
+      <workItem from="1554537380754" duration="18357000" />
+      <workItem from="1554622651670" duration="16285000" />
+      <workItem from="1554710069472" duration="11984000" />
+      <workItem from="1554917280910" duration="266000" />
+      <workItem from="1554992522943" duration="30000" />
+      <workItem from="1555165536211" duration="1563000" />
+      <workItem from="1555173105495" duration="5204000" />
+      <workItem from="1555842420661" duration="19051000" />
+      <workItem from="1555866577368" duration="1117000" />
+      <workItem from="1555920192603" duration="2800000" />
+      <workItem from="1556024586589" duration="619000" />
+      <workItem from="1556294921092" duration="5953000" />
+      <workItem from="1556887142811" duration="3474000" />
+      <workItem from="1557937752881" duration="47000" />
+      <workItem from="1557937960309" duration="52000" />
+      <workItem from="1557944206174" duration="375000" />
+      <workItem from="1558101588650" duration="9567000" />
+      <workItem from="1558165578794" duration="17331000" />
+      <workItem from="1558203393502" duration="6286000" />
+      <workItem from="1558246021686" duration="10757000" />
+      <workItem from="1558263686111" duration="33088000" />
+      <workItem from="1558298694991" duration="1367000" />
+      <workItem from="1558339682180" duration="2001000" />
+      <workItem from="1558341743040" duration="332000" />
+      <workItem from="1558342489766" duration="1946000" />
+      <workItem from="1558344567654" duration="6608000" />
+      <workItem from="1558635834356" duration="412000" />
+      <workItem from="1559468861694" duration="551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="286691000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.57746476" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989339" weight="0.51895994" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.57204765" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/save.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fairytale/Story.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="802" column="28" selection-start-line="802" selection-start-column="28" selection-end-line="802" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fairytale/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/server">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>server</OriginalElement>
+          <nodes>
+            <node x="" y="">server.QueryStorage</node>
+            <node x="" y="">server.Response.State</node>
+            <node x="" y="">server.Server</node>
+            <node x="" y="">server.ServerCommandManager</node>
+            <node x="" y="">server.Response</node>
+            <node x="" y="">server.RandomPassword</node>
+            <node x="" y="">server.EmailHandler</node>
+            <node x="" y="">server.ResponseThread</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7835888187556357" x="499.0" y="545.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-Client">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-Client</OriginalElement>
+          <nodes>
+            <node x="167.0" y="0.0">mdl-Server</node>
+            <node x="167.5" y="70.0">mdl-Client</node>
+            <node x="0.0" y="35.0">mdl-Karlson7</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mdl-Client" target="mdl-Karlson7">
+              <point x="-51.5" y="-0.0" />
+              <point x="58.5" y="5.0" />
+            </edge>
+            <edge source="mdl-Server" target="mdl-Karlson7">
+              <point x="-52.0" y="-0.0" />
+              <point x="58.5" y="-5.0" />
+            </edge>
+            <edge source="mdl-Server" target="mdl-Client">
+              <point x="26.0" y="10.0" />
+              <point x="245.0" y="50.0" />
+              <point x="244.75" y="50.0" />
+              <point x="25.75" y="-10.0" />
+            </edge>
+            <edge source="mdl-Client" target="mdl-Server">
+              <point x="-25.75" y="-10.0" />
+              <point x="193.25" y="50.0" />
+              <point x="193.0" y="50.0" />
+              <point x="-26.0" y="10.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1" x="-388.0" y="-152.0" />
+          <SelectedNodes>
+            <node>mdl-Client</node>
+            <node>mdl-Karlson7</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/client">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>client</OriginalElement>
+          <nodes>
+            <node x="" y="">client.Client</node>
+            <node x="" y="">client.Request</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="173.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/client/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fairytale/Задание.bmp" />
+    <entry file="das://29b6cad9-eda5-4f67-b9c2-eb1063b2f457/database/studs/schema/s265093/table/noises.sql" />
+    <entry file="file://$PROJECT_DIR$/src/fairytale/commands/CommandsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2472#2473#0" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#2585#2586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="688" column="14" selection-start-line="688" selection-start-column="14" selection-end-line="688" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/29b6cad9-eda5-4f67-b9c2-eb1063b2f457/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fairytale/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fairytale/Noise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2975#2976#0" expanded="true" />
+            <element signature="e#3079#3080#0" expanded="true" />
+            <element signature="e#3133#3134#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
+            <element signature="e#4217#4218#0" expanded="true" />
+            <element signature="e#4325#4326#0" expanded="true" />
+            <element signature="e#4375#4376#0" expanded="true" />
+            <element signature="e#4417#4418#0" expanded="true" />
+            <element signature="e#4448#4449#0" expanded="true" />
+            <element signature="e#4476#4477#0" expanded="true" />
+            <element signature="e#4950#4951#0" expanded="true" />
+            <element signature="e#4979#4980#0" expanded="true" />
+            <element signature="e#5030#5031#0" expanded="true" />
+            <element signature="e#5067#5068#0" expanded="true" />
+            <element signature="e#5097#5098#0" expanded="true" />
+            <element signature="e#5124#5125#0" expanded="true" />
+            <element signature="e#5161#5162#0" expanded="true" />
+            <element signature="e#5188#5189#0" expanded="true" />
+            <element signature="e#5233#5234#0" expanded="true" />
+            <element signature="e#5265#5266#0" expanded="true" />
+            <element signature="e#5292#5293#0" expanded="true" />
+            <element signature="e#5319#5320#0" expanded="true" />
+            <element signature="e#5356#5357#0" expanded="true" />
+            <element signature="e#5388#5389#0" expanded="true" />
+            <element signature="e#5419#5420#0" expanded="true" />
+            <element signature="e#5450#5451#0" expanded="true" />
+            <element signature="e#5496#5497#0" expanded="true" />
+            <element signature="e#5532#5533#0" expanded="true" />
+            <element signature="e#5563#5564#0" expanded="true" />
+            <element signature="e#5593#5594#0" expanded="true" />
+            <element signature="e#5906#5907#0" expanded="true" />
+            <element signature="e#5944#5945#0" expanded="true" />
+            <element signature="e#5987#5988#0" expanded="true" />
+            <element signature="e#6062#6063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://29b6cad9-eda5-4f67-b9c2-eb1063b2f457/database/studs/schema/s265093/table/users" />
+    <entry file="das://29b6cad9-eda5-4f67-b9c2-eb1063b2f457/database/studs/schema/s265093/table/noises" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/server/QueryStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/server/RandomPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/server/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/server/ResponseThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3597#3598#0" expanded="true" />
+            <element signature="e#3700#3701#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+            <element signature="e#5679#5680#0" expanded="true" />
+            <element signature="e#7582#7583#0" expanded="true" />
+            <element signature="e#7681#7682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/server/ServerCommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4095#4096#0" expanded="true" />
+            <element signature="e#4207#4208#0" expanded="true" />
+            <element signature="e#4618#4619#0" expanded="true" />
+            <element signature="e#4717#4718#0" expanded="true" />
+            <element signature="e#5141#5142#0" expanded="true" />
+            <element signature="e#5237#5238#0" expanded="true" />
+            <element signature="e#6096#6097#0" expanded="true" />
+            <element signature="e#6186#6187#0" expanded="true" />
+            <element signature="e#6792#6793#0" expanded="true" />
+            <element signature="e#6882#6883#0" expanded="true" />
+            <element signature="e#8379#8380#0" expanded="true" />
+            <element signature="e#8488#8489#0" expanded="true" />
+            <element signature="e#9870#9871#0" expanded="true" />
+            <element signature="e#9965#9966#0" expanded="true" />
+            <element signature="e#10703#10704#0" expanded="true" />
+            <element signature="e#10812#10813#0" expanded="true" />
+            <element signature="e#12204#12205#0" expanded="true" />
+            <element signature="e#12323#12324#0" expanded="true" />
+            <element signature="method#loginConfirmed#0;class#ServerCommandManager#0" />
+            <element signature="e#13584#13585#0" expanded="true" />
+            <element signature="e#13613#13614#0" expanded="true" />
+            <element signature="e#13660#13661#0" expanded="true" />
+            <element signature="e#13696#13697#0" expanded="true" />
+            <element signature="e#13727#13728#0" expanded="true" />
+            <element signature="e#13755#13756#0" expanded="true" />
+            <element signature="e#13796#13797#0" expanded="true" />
+            <element signature="e#13830#13831#0" expanded="true" />
+            <element signature="e#13856#13857#0" expanded="true" />
+            <element signature="e#13881#13882#0" expanded="true" />
+            <element signature="e#13914#13915#0" expanded="true" />
+            <element signature="e#13942#13943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#testServerConnection#0;class#Client#0" />
+            <element signature="docComment;method#work#0;class#Client#0" />
+            <element signature="docComment;method#doCommand#0;class#Client#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/server/EmailHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>Client:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jsch-0.1.55</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Karlson7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jsch-0.1.55</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
