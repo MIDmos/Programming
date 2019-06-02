@@ -20,7 +20,7 @@ public class Server {
     private static final String DB_DRIVER="org.postgresql.Driver";  //Драйвер
 
     //Use "jdbc:postgresql://localhost:5432/studs" to start server on local device
-    private static final String DB_CONNECTION="jdbc:postgresql://pg:5432/studs"; //URI для к ДБ (запуск на хелиосе)
+    private static final String DB_CONNECTION="jdbc:postgresql://localhost:5432/studs"; //URI для к ДБ (запуск на хелиосе)
 
     private Connection dbConnection;
     private DatagramChannel channel;

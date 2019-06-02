@@ -8,112 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1882204-7b8a-4148-970e-5548e675ef45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/artifacts/Client_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/artifacts/Client_jar2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/artifacts/Server_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/libraries/src.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Client/Client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Client/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Client/src/client/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Client/src/client/SpammerClients.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/ClientSpammer/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Karlson5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Server/Server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Server/one-liners.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Server/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Server/src/server/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Server/src/server/ResponseThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Server/src/server/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/karlson5.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/karlson5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/module_karlson5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/artifacts/Client/Client.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/artifacts/ClientSpammer/Client.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/artifacts/Server/Server.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Client/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Client/client/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Client/client/SpamThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Client/client/SpammerClients.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/ChangingRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Describable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/FileHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/JsonParser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/JsonParser$Tokenizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/JsonParser$WrongTokenException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/JsonParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Karlson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/KarlsonHouseNotTheBestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Kid$HouseComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Kid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Noise$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Noise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/PersonWithHouse$House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/PersonWithHouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/PersonWithSound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/SoundChanger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/SoundCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/SoundListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Story.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/VeryLongSoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandDescriptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsManager$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsManager$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/commands/CommandsRecognizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Karlson5/fairytale/Задание.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/ResponseThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/out/production/Server/server/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/save.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/ChangingRule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Describable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/FileHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/JsonParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Karlson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/KarlsonHouseNotTheBestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Kid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Noise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/PersonWithHouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/PersonWithSound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/SoundChanger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/SoundCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/SoundListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Story.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/VeryLongSoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/commands/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/commands/CommandDescriptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/commands/CommandsManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/commands/CommandsRecognizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/fairytale/Задание.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/task.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsch_0_1_55.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Server_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Server_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29b6cad9-eda5-4f67-b9c2-eb1063b2f457.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/29b6cad9-eda5-4f67-b9c2-eb1063b2f457.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29b6cad9-eda5-4f67-b9c2-eb1063b2f457/storage_v2/_src_/database/studs.ww2LBg/schema/s265093.bLXQGw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/29b6cad9-eda5-4f67-b9c2-eb1063b2f457/storage_v2/_src_/database/studs.ww2LBg/schema/s265093.bLXQGw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Karlson7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Karlson7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Server/Server.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Server/Server.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/server/EmailHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/server/EmailHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/server/EmailHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/server/EmailHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/server/Server.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,7 +110,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/src/server/EmailHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
@@ -217,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/Client/src/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
-              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#testServerConnection#0;class#Client#0" />
@@ -246,11 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server/src/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="238">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,7 +171,7 @@
         <entry file="file://$PROJECT_DIR$/Server/src/server/ServerCommandManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4095#4096#0" expanded="true" />
@@ -435,21 +344,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -457,53 +359,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab7" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Karlson7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fairytale" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Karlson7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Lab7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab7" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="postgresql-42.2.5.jar" type="ab9368bb:PsiFileNode" />
             </path>
           </expand>
           <select />
@@ -543,17 +411,18 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="karlson5" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555866392104" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/libs/jsch-0.1.55.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jsch-0.1.55.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="sshConsole" />
@@ -585,7 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client.Client" />
       <module name="Client" />
@@ -632,8 +501,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client" />
       </list>
@@ -693,12 +562,12 @@
       <workItem from="1558342489766" duration="1946000" />
       <workItem from="1558344567654" duration="6608000" />
       <workItem from="1558635834356" duration="412000" />
-      <workItem from="1559468861694" duration="551000" />
+      <workItem from="1559468861694" duration="1662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286691000" />
+    <option name="totallyTimeSpent" value="287802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -711,9 +580,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -722,7 +590,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.57746476" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.57746476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1013,20 +881,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/src/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/src/server/ServerCommandManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4095#4096#0" expanded="true" />
@@ -1067,7 +925,7 @@
     <entry file="file://$PROJECT_DIR$/Client/src/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#testServerConnection#0;class#Client#0" />
@@ -1081,6 +939,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/src/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1105,6 +973,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1124,7 +993,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jsch-0.1.55</last-edited>
+          <last-edited>mail</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
